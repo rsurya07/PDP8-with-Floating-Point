@@ -4,6 +4,7 @@ FPSTOR=6552
 FPADD=6553
 FPMULT=6554
 
+	
 *0200			/ start at address 0200
 Main, 	cla cll 	/ clear AC and Link
 loop,	FPCLAC 		
